@@ -58,8 +58,7 @@ function loadTrack(index) {
 
   track_name.textContent = track_list[index].name;
   track_artist.textContent = track_list[index].artist;
-  now_playing.textContent =
-    "PLAYING " + (index + 1) + " OF " + track_list.length;
+  now_playing.textContent = `PLAYING ${index + 1} OF ${track_list.length}`;
   
   // Set an interval of 1000 milliseconds
   // for updating the seek slider
@@ -181,4 +180,4 @@ const formatTime = (time) => {
 
 // Load the first track in the tracklist
 loadTrack(index);
-playTrack();
+//playTrack();
