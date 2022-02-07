@@ -181,4 +181,4 @@ const formatTime = (time) => {
 
 // Load the first track in the tracklist
 loadTrack(index);
-
+playTrack();
